@@ -1,0 +1,45 @@
+{
+  "name": "leumi-leumicard-bank-data-scraper",
+  "version": "1.0.",
+  "description": "Open bank data for Leumi bank and Leumi card credit card",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Uri Goldshtein",
+    "email": "uri.goldshtein@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urigo/leumi-leumicard-bank-data-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/urigo/leumi-leumicard-bank-data-scraper/issues"
+  },
+  "tags": [
+    "finance",
+    "money",
+    "open data",
+    "Leumi",
+    "Bank"
+  ],
+  "devDependencies": {
+    "@types/node": "8.0.51",
+    "@types/puppeteer": "0.12.3",
+    "nodemon": "1.12.1",
+    "tslint": "5.8.0",
+    "typescript": "2.6.1"
+  },
+  "dependencies": {
+    "puppeteer": "0.13.0"
+  },
+  "scripts": {
+    "start": "tsc && node --inspect dist/server.js",
+    "tslint": "tslint -c tslint.json -p tsconfig.json src/**/*.ts{,x}",
+    "update-node": "nvm install node --reinstall-packages-from=node",
+    "update-npm": "npm install npm@latest -g"
+  },
+  "engines": {
+    "node": "8.7.0",
+    "npm": "5.5.1"
+  }
+}

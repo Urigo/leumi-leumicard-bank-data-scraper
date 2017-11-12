@@ -1,0 +1,24 @@
+{
+  "version": "2.6.1",
+  "compilerOptions": {
+    "lib": ["ES2017", "esnext.asynciterable"],
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    //"noImplicitAny": true,
+    //"strictNullChecks": true,
+    //"suppressImplicitAnyIndexErrors": true,
+    //"noUnusedLocals": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "allowJs": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
