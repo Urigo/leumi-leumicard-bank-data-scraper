@@ -24,7 +24,7 @@
   ],
   "devDependencies": {
     "@types/node": "8.0.51",
-    "@types/puppeteer": "0.12.3",
+    "@types/puppeteer": "0.12.4",
     "nodemon": "1.12.1",
     "tslint": "5.8.0",
     "typescript": "2.6.1"
