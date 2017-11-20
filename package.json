@@ -23,7 +23,7 @@
     "Bank"
   ],
   "devDependencies": {
-    "@types/node": "8.0.51",
+    "@types/node": "8.0.53",
     "@types/puppeteer": "0.13.0",
     "nodemon": "1.12.1",
     "tslint": "5.8.0",
