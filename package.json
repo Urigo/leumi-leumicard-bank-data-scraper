@@ -23,7 +23,7 @@
     "Bank"
   ],
   "devDependencies": {
-    "@types/node": "8.0.53",
+    "@types/node": "8.10.66",
     "@types/puppeteer": "0.13.2",
     "nodemon": "1.12.1",
     "tslint": "5.8.0",
@@ -39,7 +39,7 @@
     "update-npm": "npm install npm@latest -g"
   },
   "engines": {
-    "node": "8.7.0",
+    "node": "8.17.0",
     "npm": "5.5.1"
   }
 }
